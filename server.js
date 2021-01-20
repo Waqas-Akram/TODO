@@ -76,8 +76,8 @@ app.post("/contact" ,function(req,res){
     let transporter = nodemailer.createTransport({
       service:'Outlook',
       auth: {
-        user: 'waqasakram512@outlook.com',
-        pass: 'ninja*assasin'
+        user: 'your email',
+        pass: <your mail password>
       }
     });
     let mailOptions = {
